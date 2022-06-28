@@ -1,0 +1,53 @@
+*{
+    margin: 0xp;
+    padding: 0px;
+}
+
+.line_Through{
+    text-decoration: line-through wavy red;
+}
+
+body{
+    background: linear-gradient(purple, lightblue);
+    min-height: 100vh;
+    /*font-family: 'Times New Roman', Times, serif;*/
+}
+
+.ToDoList{
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.divAddToList{  
+    align-self: center;
+    width: 50%;
+    display: flex;
+}
+
+.list{
+    align-self: center;
+    list-style-type: none;
+    width: 50%;
+    text-align: center;
+    padding-left: 0px;
+}
+
+#inputTextForList{
+    /*align-self: flex-start;*/
+    min-width: 70%;
+    margin-right: 5px;
+    height: 2em;
+}
+
+.toList{
+    /*align-self: flex-end;*/
+    max-width: 30%;
+    margin-left: 5px;
+    
+}
+
+h2{
+    align-self: center;
+    margin-bottom: 3px;
+}
